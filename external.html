@@ -1,0 +1,103 @@
+<html>
+<header>
+<style>
+body {
+margin: 10px;
+background-color: antiquewhite;
+}
+.main {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: solid 5px;
+padding: 15px;
+}
+.date {
+    background-color: pink;
+    border: solid 2.5px;
+}
+.phone {
+    background-color: aquamarine;
+    border: solid 2.5px;
+}
+.room {
+    background-color: yellowgreen;
+    border: solid 2.5px;
+}
+.name {
+    background-color: orange;
+    border: solid 2.5px;
+}
+.gender {
+    background-color: rgba(249, 249, 6, 0.938);
+    border: solid 2.5px;
+}
+.state {
+    background-color: red;
+    border: solid 2.5px;
+}
+.district {
+    background-color: blueviolet;
+    border: solid 2.5px;
+}
+
+</style>
+<body>
+<div class="main">
+<div class="name">
+<label for="fullname">Full_name</label>
+<input type="name" id="fullname" name="fullname"></input>
+</div>
+<br>
+<div class="gender"><label for="gender">Gender</label>
+<input type="radio" id="male" name="gender" value="male">     
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label></div>    
+<br>
+<div class="phone">
+<label for="phonenumber">TELEPHONE_NO.</label>
+<input type="tel" id="phonenumber" name="phonenumber"></input>
+</div>
+<br>
+<div class="room">
+<label for="room">Room Type:</label> 
+<select id="room" name="room"> 
+<option value="single">Single Room</option> 
+<option value="double">Double Room</option> 
+<option value="deluxe">Deluxe Room</option> 
+<option value="suite">Suite</option> 
+</select> 
+</div>
+<br>
+<div class="date">
+<label for="checkin">CHECK IN DATE</label>
+<input type="date" id="checkin" name="checkin"></input>
+</div>
+<br>
+<div class="date">
+<label for="checkout">CHECK OUT DATE</label>
+<input type="date" id="checkout" name="checkout"></input>
+</div>
+<br>
+<div class="district">
+<label for="district">DISTRICT</label>
+<input type="text" id="district" name="district"></input>
+</div>
+<br>
+<div class="state">
+<label for=state">STATE</label>
+<input type="text" id="state" name="state"></input>
+</div>
+<br>
+<div class="button">
+<button>
+<input type="submit" value="SUBMIT"></input>
+<input type="reset" value="RESET"></input>
+</button>
+</div>
+</div>
+</body>
+</header>
+</html>
